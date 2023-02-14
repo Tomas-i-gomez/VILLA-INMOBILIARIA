@@ -8,6 +8,9 @@
     background-color: rgb(22, 22, 148);
 }
 /* BUTTONS */
+a:link, a:visited {
+    text-decoration: none;
+}
 .cta {
     border: 3px solid black;
     background: none;
@@ -62,3 +65,14 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+/* CARRUSEL */
+
+.img-text {
+margin: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: justify;
+border-bottom: solid 1px black;
+}
+
