@@ -12,19 +12,46 @@
 </head>
 <body>
     <!-- LOGO -->
-    <img src="https://i.ibb.co/5xSKb3J/VILLA.jpg" class="nav-logo rounded mx-auto d-block" alt="Logo Inmobiliaria Villa">
+    <a href="index.html"><img src="https://i.ibb.co/5xSKb3J/VILLA.jpg" class="nav-logo rounded mx-auto d-block" alt="Logo Inmobiliaria Villa"></a>
     <!-- NAVBAR -->
-    <ul class="nav justify-content-center nav-color">
-        <li class="nav-item">
-          <a class="nav-link text-white" aria-current="page" href="index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="departamentos.html">DEPARTAMENTOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="casas.html">CASAS</a>
-        </li>
-      </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg nav-color text-center">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand text-white" href="index.html">HOME</a> -->
+          <button class="navbar-toggler bg-white ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ventas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ventaCasas.html">Casas</a></li>
+                  <li><a class="dropdown-item" href="ventaDepartamentos.html">Departamentos</a></li>
+                  <li><a class="dropdown-item" href="ventaGarages.html">Garages </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Alquileres
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="alquilerCasas.html">Casas</a></li>
+                  <li><a class="dropdown-item" href="alquilerDepartamentos.html">Departamentos</a></li>
+                  <li><a class="dropdown-item" href="alquilerGarages.html">Garages</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
       <!-- CARROUSEL -->
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -48,23 +75,36 @@
         </button>
       </div>
       <br>
+
+
 <!-- BUTTONS -->
-    <section class="d-grid text-center">
-        <button class="cta">
-            <a class="button-link" href="departamentos.html"><span class="hover-underline-animation"> DEPARTAMENTOS </span></a>
-            <svg viewBox="0 0 46 16" height="10" width="30" xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
-                <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
-            </svg>
-        </button>
-        <br>
-        <button class="cta">
-            <a class="button-link" href="casas.html"><span class="hover-underline-animation"> CASAS </span></a>
-            <svg viewBox="0 0 46 16" height="10" width="30" xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
-                <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
-            </svg>
-        </button>
-      </section>
-      <br>
+<div class="dropdown-center d-grid text-center">
+  <button class="btn btn-primary dropdown-toggle cta" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="hover-underline-animation "> VENTAS </span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end">
+    <li><a class="dropdown-item" href="ventaCasas.html">Casas</a></li>
+    <li><a class="dropdown-item" href="ventaDepartamentos.html">Departamentos</a></li>
+    <li><a class="dropdown-item" href="ventaGarages.html">Garages</a></li>
+  </ul>
+</div>
+
+<br>
+
+<div class="dropdown-center d-grid text-center">
+  <button class="btn btn-primary dropdown-toggle cta" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="hover-underline-animation "> ALQUILERES </span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end">
+    <li><a class="dropdown-item" href="alquilerCasas.html">Casas</a></li>
+    <li><a class="dropdown-item" href="alquilerDepartamentos.html">Departamentos</a></li>
+    <li><a class="dropdown-item" href="alquilerGarages.html">Garages</a></li>
+  </ul>
+</div>
+
+<br>
+
+
+
+
       <!-- FOOTER -->
 <footer class=" text-center text-white" style="background-color:#161694;">
     <!-- Grid container -->

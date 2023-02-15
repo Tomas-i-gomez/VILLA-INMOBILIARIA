@@ -11,27 +11,57 @@
     <title>Villa Inmobiliaria</title>
 </head>
 <body>
-    <!-- LOGO -->
-    <img src="https://i.ibb.co/5xSKb3J/VILLA.jpg" class="nav-logo rounded mx-auto d-block" alt="Logo Inmobiliaria Villa">
-    <!-- NAVBAR -->
-    <ul class="nav justify-content-center nav-color">
-        <li class="nav-item">
-          <a class="nav-link text-white" aria-current="page" href="index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="departamentos.html">DEPARTAMENTOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="casas.html">CASAS</a>
-        </li>
-      </ul>
+  <a href="index.html"><img src="https://i.ibb.co/5xSKb3J/VILLA.jpg" class="nav-logo rounded mx-auto d-block" alt="Logo Inmobiliaria Villa"></a>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg nav-color text-center">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand text-white" href="index.html">HOME</a> -->
+        <button class="navbar-toggler bg-white ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ventas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ventaCasas.html">Casas</a></li>
+                <li><a class="dropdown-item" href="ventaDepartamentos.html">Departamentos</a></li>
+                <li><a class="dropdown-item" href="ventaGarages.html">Garages </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Alquileres
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="alquilerCasas.html">Casas</a></li>
+                <li><a class="dropdown-item" href="alquilerDepartamentos.html">Departamentos</a></li>
+                <li><a class="dropdown-item" href="alquilerGarages.html">Garages</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
       <!------------------------------ CARRUSEL ALQUILERES 1----------------------------->
       <section class="row img-text">
-      <div id="carouselExampleIndicatorsDep" class="carousel slide col-lg-4">
+      <div id="carouselExampleIndicatorsAlqDep" class="carousel slide col-lg-4">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -44,11 +74,11 @@
             <img src="https://i.ibb.co/9gsgFY8/img-prueba-DPTO-3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsDep" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsDep" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -82,11 +112,11 @@
       </ul>
       </section>
 
-      <div id="carouselExampleIndicatorsDep2" class="carousel slide col-lg-4">
+      <div id="carouselExampleIndicatorsAlqDep2" class="carousel slide col-lg-4">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep2" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -99,11 +129,11 @@
             <img src="https://i.ibb.co/9gsgFY8/img-prueba-DPTO-3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsDep2" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep2" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsDep2" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep2" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -112,11 +142,11 @@
 
  <!------------------------------ CARRUSEL ALQUILERES 3----------------------------->
  <section class="row img-text">
-    <div id="carouselExampleIndicatorsDep3" class="carousel slide col-lg-4">
+    <div id="carouselExampleIndicatorsAlqDep3" class="carousel slide col-lg-4">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicatorsDep3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicatorsDep3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicatorsDep3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep3" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -129,11 +159,11 @@
           <img src="https://i.ibb.co/9gsgFY8/img-prueba-DPTO-3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsDep3" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep3" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsDep3" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep3" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -167,11 +197,11 @@
       </ul>
       </section>
 
-      <div id="carouselExampleIndicatorsDep4" class="carousel slide col-lg-4">
+      <div id="carouselExampleIndicatorsAlqDep4" class="carousel slide col-lg-4">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicatorsDep4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicatorsAlqDep4" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -184,11 +214,11 @@
             <img src="https://i.ibb.co/9gsgFY8/img-prueba-DPTO-3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsDep4" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep4" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsDep4" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsAlqDep4" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
